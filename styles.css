@@ -1,0 +1,86 @@
+.background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  filter: brightness(30%);
+  background-image: url("maze.jpg");
+}
+
+.guide {
+  filter: brightness(100%);
+  color: white;
+  position: absolute;
+  width: 250px;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: aqua;
+}
+
+.warning {
+  border: solid 2px red;
+}
+
+.inputs {
+  margin: auto;
+  position: absolute;
+  width: 160px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#start {
+  width: 45px;
+  font-size: 30px;
+  margin: 5px;
+  text-align: center;
+  background-color:rgb(53, 131, 130);
+  color: aqua;
+}
+
+button {
+  position: absolute;
+  margin: 5px;
+  top: 50%;
+  transform: translate(0, -63%);
+  color: aqua;
+  background-color: darkcyan;
+  border-color: rgb(0, 70, 70);
+  border-radius: 5px;
+  box-shadow: 5px darkcyan;
+  width: 90px;
+  font-size: 20px;
+  margin: 5px;
+  padding: 3px;
+  text-align: center;
+}
+
+.is-hidden {
+  display: none;
+}
+
+#end {
+  width: 150px;
+  font-size: 30px;
+  margin: 5px;
+  text-align: center;
+  color: darkcyan;
+  background-color: aqua;
+  box-shadow: 5px darkcyan;
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  overflow: auto;
+}
