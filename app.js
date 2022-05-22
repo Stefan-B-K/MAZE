@@ -4,6 +4,7 @@ welcome.innerHTML = `
 <div class="guide">
   <p style="margin: 5px;">Choose Maze Size</p>
   <p id="range" style="margin: 0;">(between 3 and 30)</p>
+  <h6 id="range" style="margin: 5px;">move the ball with A W S D keys</h6>
 </div>
 <div class="inputs">
   <input type="text" id="start" autocomplete="off">
